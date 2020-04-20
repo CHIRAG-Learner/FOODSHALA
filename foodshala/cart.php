@@ -200,11 +200,11 @@ if(!empty($_SESSION["cart"]))
      <table id="customers">
   <thead class="thead-dark">
 <tr>
-<th width="20%">Food Name</th>
-<th width="20%">Restaurant's Name</th>
-<th width="20%">Quantity</th>
-<th width="20%">Price Details</th>
-<th width="20%">Order Total</th>
+<th >Food Name</th>
+<th>Restaurant's Name</th>
+<th>Quantity</th>
+<th >Price Details</th>
+<th >Order Total</th>
 </tr>
 </thead>
 <?php  
@@ -215,11 +215,13 @@ foreach($_SESSION["cart"] as $keys => $values)
 ?>
 <tr>
 <td><?php echo $values["food_name"]; ?></td>
-<td><?php echo $values["R_NAME"]; ?></td
+<td><?php echo $values["R_NAME"]; ?></td>
 <td><?php echo $values["food_quantity"] ?></td>
-<td>&#8377; <?php echo $values["food_price"]; ?></td>
-<td>&#8377; <?php echo number_format($values["food_quantity"] * $values["food_price"], 2); ?></td>
+<td> <?php echo $values["food_price"]; ?></td>
+<td></td>
+
 </tr>
+
 <?php 
 $total = $total + ($values["food_quantity"] * $values["food_price"]);
 }
