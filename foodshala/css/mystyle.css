@@ -1,0 +1,79 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+text-align: right;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  position: absolute;
+  left: 35px;
+  top: 300px;
+}
+.bu
+{
+ background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  position: absolute;
+}
+li
+{
+
+float:right;
+}
+.karma
+{
+color:white;
+font-size:30px;
+padding:30px;
+}
+.karam
+{
+color:white;
+font-size:30px;
+padding-left:30px;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.karan
+{
+color:#00BFFF;
+padding:20px;
+font-size:20px;
+}
+.karan:hover
+{
+background_color:black;
+}
+
